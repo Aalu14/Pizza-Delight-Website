@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Pizza Delight</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="pizza.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <h1>Our Menu</h1>
+
+  <div class="menu-container">
+    <div class="menu-item">
+      <img src="images/pizza1.jpg" alt="Pizza 1">
+      <h2>Pepperoni Pizza</h2>
+      <p>$10.00</p>
+      <button onclick="addToCart('Pepperoni Pizza', 10)">Add to Cart</button>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="images/pizza2.jpg" alt="Pizza 2">
+      <h2>Veggie Pizza</h2>
+      <p>$9.00</p>
+      <button onclick="addToCart('Veggie Pizza', 9)">Add to Cart</button>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="images/pizza3.jpg" alt="Pizza 3">
+      <h2>Cheese Pizza</h2>
+      <p>$8.00</p>
+      <button onclick="addToCart('Cheese Pizza', 8)">Add to Cart</button>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="images/pizza4.jpg" alt="Pizza 4">
+      <h2>Margherita Pizza</h2>
+      <p>$11.00</p>
+      <button onclick="addToCart('Margherita Pizza', 11)">Add to Cart</button>
+    </div>
+  </div>
+
+
+  <script src="pizza.js"></script>
+  <div class="buttons">
+    <div id="cartSummary"></div>
+    <a href="cart.html">
+
+      <button class="btn-btn1" id="billBtn">BILL</button>
+    </a>
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
